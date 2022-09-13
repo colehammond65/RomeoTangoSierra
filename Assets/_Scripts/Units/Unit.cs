@@ -1,0 +1,25 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using Mirror;
+using UnityEngine.Events;
+
+public class Unit : NetworkBehaviour
+{
+    
+    [SerializeField] private UnityEvent onSelected;
+    [SerializeField] private UnityEvent onDeselected;
+
+    [Client]
+    public void Select(){
+        if(!hasAuthority){return;}
+        onSelected?.Invoke();
+    }    
+    
+    [Client]
+    public void Deselect(){
+        if(!hasAuthority){return;}
+        onDeselected?.Invoke();
+    }
+
+}
