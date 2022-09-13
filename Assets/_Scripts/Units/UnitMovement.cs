@@ -12,7 +12,7 @@ public class UnitMovement : NetworkBehaviour
 
     private Camera MainCamera;
 
-    #region Server    
+    #region Server
 
     [Command]
     public void CmdMove(Vector3 position){
