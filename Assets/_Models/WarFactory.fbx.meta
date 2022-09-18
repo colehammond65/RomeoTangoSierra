@@ -1,8 +1,11 @@
 fileFormatVersion: 2
-guid: 9fa3799d4609cb148b31a70c0b616814
+guid: 3e90839d2e604924587c081ad1b70436
 ModelImporter:
   serializedVersion: 22103
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: 440214567010048212
+    second: ABWARFACT|ABWARFACTAction
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -77,7 +80,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 0
+  importAnimation: 1
   humanDescription:
     serializedVersion: 3
     human: []
@@ -96,7 +99,7 @@ ModelImporter:
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1

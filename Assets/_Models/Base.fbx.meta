@@ -1,8 +1,11 @@
 fileFormatVersion: 2
-guid: 9fa3799d4609cb148b31a70c0b616814
+guid: 9c2432eff013061468154857a69f30dd
 ModelImporter:
   serializedVersion: 22103
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: -5000163419801075671
+    second: ABBTCMDHQ|ABBTCMDHQAction
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -77,7 +80,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 0
+  importAnimation: 1
   humanDescription:
     serializedVersion: 3
     human: []
@@ -96,7 +99,7 @@ ModelImporter:
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
