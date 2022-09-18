@@ -301,45 +301,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2267280635530595971, guid: 22d540342e0508548b420a421190c1a3,
-        type: 3}
-      propertyPath: onlineScene
-      value: Assets/_Scenes/Scene_Map_01.unity
-      objectReference: {fileID: 0}
-    - target: {fileID: 2267280635530595971, guid: 22d540342e0508548b420a421190c1a3,
-        type: 3}
-      propertyPath: offlineScene
-      value: Assets/_Scenes/Scene_Menu.unity
-      objectReference: {fileID: 0}
-    - target: {fileID: 2267280635530595971, guid: 22d540342e0508548b420a421190c1a3,
-        type: 3}
-      propertyPath: gameOverHandlerPrefab
-      value: 
-      objectReference: {fileID: 2316914708842158529, guid: c35541c674ffe5441bc6ac0e9abe081c,
-        type: 3}
-    - target: {fileID: 2267280635530595971, guid: 22d540342e0508548b420a421190c1a3,
-        type: 3}
-      propertyPath: spawnPrefabs.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2267280635530595971, guid: 22d540342e0508548b420a421190c1a3,
-        type: 3}
-      propertyPath: spawnPrefabs.Array.data[0]
-      value: 
-      objectReference: {fileID: 4380218619846030577, guid: ac551fa2617e7a84a8667aedeac6334d,
-        type: 3}
-    - target: {fileID: 2267280635530595971, guid: 22d540342e0508548b420a421190c1a3,
-        type: 3}
-      propertyPath: spawnPrefabs.Array.data[1]
-      value: 
-      objectReference: {fileID: 3807439123809677657, guid: a09e4dbeeea88df40804acbbf8948333,
-        type: 3}
-    - target: {fileID: 2267280635530595971, guid: 22d540342e0508548b420a421190c1a3,
-        type: 3}
-      propertyPath: spawnPrefabs.Array.data[2]
-      value: 
-      objectReference: {fileID: 7314668369997771528, guid: 043e183fb72882b44938627d52271e15,
-        type: 3}
     - target: {fileID: 2267280635530595996, guid: 22d540342e0508548b420a421190c1a3,
         type: 3}
       propertyPath: m_Name
